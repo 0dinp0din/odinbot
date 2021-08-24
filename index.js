@@ -10,8 +10,7 @@ client.on("message", msg => {
     msg.reply("pong")
   }
 });
+
 const mySecret = process.env['TOKEN']
 
-
-console.log(mySecret);
 client.login(mySecret);
